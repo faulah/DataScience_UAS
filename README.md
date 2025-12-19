@@ -3,6 +3,8 @@
 
 ## 👤 Informasi
 - **Nama:** Khoirul Faulah Nur Rohmah
+- **NIM:** 233307053
+- **Kelas:** 5B
 - **Repo:** https://github.com/faulah/DataScience_UAS
 - **Video:** [...]  
 
@@ -59,31 +61,36 @@ project/
 
 | Fitur | Deskripsi |
 | :--- | :--- |
-| **Area** | Luas area kacang (jumlah piksel). |
-| **Perimeter** | Keliling atau panjang batas luar kacang. |
-| **MajorAxisLength** | Panjang sumbu utama elips. |
-| **MinorAxisLength** | Panjang sumbu minor elips. |
-| **Aspect Ratio** | Rasio antara sumbu utama dan sumbu minor. |
-| **Eccentricity** | Seberapa jauh bentuk kacang dari lingkaran sempurna. |
-| **ConvexArea** | Luas poligon cembung terkecil yang menutupi kacang. |
-| **Extent** | Rasio piksel area terhadap kotak pembatas. |
-| **Solidity** | Kepadatan bentuk (Area / ConvexArea). |
-| **Roundness** | Tingkat kebulatan kacang. |
-| **ShapeFactor1 - 4** | Empat variabel faktor bentuk geometri kacang. |
+| **Area** | Jumlah piksel dalam batas benih (ukuran luas). |
+| **Perimeter** | Panjang keliling benih. |
+| **MajorAxisLength** | Jarak antara dua ujung terjauh pada benih. |
+| **MinorAxisLength** | Jarak antara dua ujung terpendek pada benih. |
+| **Aspect Ratio** | Rasio antara Major Axis Length dan Minor Axis Length. |
+| **Eccentricity** | Eksentrisitas elips yang memiliki momen kedua yang sama dengan benih. |
+| **ConvexArea** | Luas poligon konveks terkecil yang melingkupi benih. |
+| **EquivDiameter** | Diameter lingkaran dengan luas yang sama dengan benih. |
+| **Extent** | Rasio piksel dalam kotak pembatas terhadap luas kotak tersebut. |
+| **Solidity** | Rasio Area terhadap ConvexArea (tingkat kepadatan). |
+| **Roundness** | Tingkat kebulatan benih (menggunakan rumus keliling). |
+| **Compactness** | Seberapa padat bentuk benih dibandingkan dengan lingkaran |
+| **ShapeFactor1** | Faktor bentuk 1 (dimensi fitur geometrik). |
+| **ShapeFactor2** | Faktor bentuk 2 (dimensi fitur geometrik). |
+| **ShapeFactor3** | Faktor bentuk 3 (dimensi fitur geometrik). |
+| **ShapeFactor4** | Faktor bentuk 4 (dimensi fitur geometrik). |
 
 ---
 
 # 4. 🔧 Data Preparation
-- Cleaning (missing/duplicate/outliers)  
-- Transformasi (encoding/scaling)  
-- Splitting (train/val/test)  
+- Cleaning : Dataset ini sudah bersih dari pabriknya jadi tidak ada missing values atau data yang duplikat  
+- Transformasi  Dilakukan standardization menggunakan StandardScaler. Proses ini mengubah nilai agar memiliki rata-rata 0 dan standar deviasi 1, sangat penting untuk membantu konvergensi model Deep Learning agar proses training lebih stabil  
+- Splitting : Data ini dipisahkan dengan rasio 80% untuk training set untuk melatih model & 20% untuk test set untuk mengevaluasi model pada data 
 
 ---
 
 # 5. 🤖 Modeling
-- **Model 1 – Baseline:** [...]  
-- **Model 2 – Advanced ML:** [...]  
-- **Model 3 – Deep Learning:** [...]  
+- **Model 1 – Baseline:** [Logistic Regression]  
+- **Model 2 – Advanced ML:** [Random Forest]  
+- **Model 3 – Deep Learning:** [Multilayer Perceptron)]  
 
 ---
 
@@ -93,24 +100,24 @@ project/
 ### Hasil Singkat
 | Model | Score | Catatan |
 |-------|--------|---------|
-| Baseline | [...] | |
-| Advanced | [...] | |
-| Deep Learning | [...] | |
+| Baseline | [92.69%] | sebagai model liniermenunjukkan bahwa fitur-fitur geometrik memiliki pemisahan yang cukup jelas |
+| Advanced | [92.54%] | peningkatan akurasi terjadi karena ensemble dalam menangani hubungan non-linier antara fitur |
+| Deep Learning | [92.95%] | ini mampu mempelajari pola yang sangat komplek, namun memerlukan proses training yang lebih lama dibandingkan model ML tradisional |
 
 ---
 
 # 7. 🏁 Kesimpulan
-- Model terbaik: [...]  
-- Alasan: [...]  
-- Insight penting: [...]  
+- Model terbaik: [Multilayer Percetron (Deep Learning)]  
+- Alasan: [hal ini menunjukkan bahwa fitur geometrik ini memiliki pola non-linier kompleks yang lebih baik ditangkap oleh algoritma cerdas dari pada model linier sederhana.]  
+- Insight penting: [Fitur dimensi seperti Area dan Perimeter sangat menentukan jenis kacang, namun fitur bentuk (ShapeFactors) sangat krusial untuk membedakan varietas yang ukurannya mirip tetapi geometrinya berbeda]  
 
 ---
 
 # 8. 🔮 Future Work
-- [ ] Tambah data  
-- [ ] Tuning model  
-- [ ] Coba arsitektur DL lain  
-- [ ] Deployment  
+- [✅] Tambah data  
+- [✅] Tuning model  
+- [✅] Coba arsitektur DL lain  
+- [✅] Deployment  
 
 ---
 
