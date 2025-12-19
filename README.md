@@ -1,12 +1,12 @@
 # 📘 Judul Proyek
-*(KLASIFIKASI JENIS DRY BEAN MENGGUNAKAN MACHINE LEARNING DAN DEEP LEARNING)*
+*KLASIFIKASI JENIS DRY BEAN MENGGUNAKAN MACHINE LEARNING DAN DEEP LEARNING*
 
 ## 👤 Informasi
 - **Nama:** Khoirul Faulah Nur Rohmah
 - **NIM:** 233307053
 - **Kelas:** 5B
 - **Repo:** https://github.com/faulah/DataScience_UAS
-- **Video:** [...]  
+- **Video:** https://drive.google.com/drive/u/1/folders/1EoLViHlWg052erRLK-ozAKRyasT4vejB 
 
 ---
 
@@ -27,29 +27,29 @@ Bagaimana cara membangun model yang mampu mengklasifikasi 7 jenis Dry Bean ( Kac
 Mendapatkan model klasifikasi terbaik dengan akurasi 92.95% untuk membedakan jenis kacang
 
 ---
-## 📁 Struktur Folder
-```
-project/
-│
-├── data/                   # Dataset (tidak di-commit, download manual)
-│
-├── notebooks/              # Jupyter notebooks
-│   └── ML_Project.ipynb
-│
-├── src/                    # Source code
-│   
-├── models/                 # Saved models
-│   ├── model_baseline.pkl
-│   ├── model_rf.pkl
-│   └── model_cnn.h5
-│
-├── images/                 # Visualizations
-│   └── r
-│
-├── requirements.txt        # Dependencies
+## 📂 Struktur Folder 
+
+```text
+UAS_DataScience/
+├── data/                  # Berisi dataset mentah (Dry_Bean_Dataset.csv) 
+├── notebooks/             
+│   └── UAS.ipynb   
+|                
+├── models/                
+│   ├── best_model_rf.pkl               # Model Random Forest
+│   ├── logistic_regression_model.pkl   # Model Logistic Regression
+│   └── deep_learning_mlp_model.h5      # Model Deep Learning (MLP) 
+├── images/                
+│   ├── gambar1.png
+│   ├── gambar2.png
+|   ├── gambar3.png
+|   ├── gambar4.png
+│   └── gambar5.png
+├── README.md              
+├── requirements.txt       
 ├── .gitignore
-└── README.md
-```
+├── CHECKLIST.pdf             
+└── LAPORAN.pdf           
 ---
 
 # 3. 📊 Dataset
@@ -107,9 +107,9 @@ project/
 ---
 
 # 7. 🏁 Kesimpulan
-- Model terbaik: [Multilayer Percetron (Deep Learning)]  
-- Alasan: [hal ini menunjukkan bahwa fitur geometrik ini memiliki pola non-linier kompleks yang lebih baik ditangkap oleh algoritma cerdas dari pada model linier sederhana.]  
-- Insight penting: [Fitur dimensi seperti Area dan Perimeter sangat menentukan jenis kacang, namun fitur bentuk (ShapeFactors) sangat krusial untuk membedakan varietas yang ukurannya mirip tetapi geometrinya berbeda]  
+- Model terbaik: Multilayer Percetron (Deep Learning)
+- Alasan: hal ini menunjukkan bahwa fitur geometrik ini memiliki pola non-linier kompleks yang lebih baik ditangkap oleh algoritma cerdas dari pada model linier sederhana.  
+- Insight penting: Fitur dimensi seperti Area dan Perimeter sangat menentukan jenis kacang, namun fitur bentuk (ShapeFactors) sangat krusial untuk membedakan varietas yang ukurannya mirip tetapi geometrinya berbeda  
 
 ---
 
