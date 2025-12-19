@@ -33,7 +33,7 @@ Mendapatkan model klasifikasi terbaik dengan akurasi 92.95% untuk membedakan jen
 UAS_DataScience/
 ├── data/                  # Berisi dataset mentah (Dry_Bean_Dataset.csv) 
 ├── notebooks/             
-│   └── UAS.ipynb   
+│   └── UAS.ipynb  
 |                
 ├── models/                
 │   ├── best_model_rf.pkl               # Model Random Forest
@@ -49,7 +49,9 @@ UAS_DataScience/
 ├── requirements.txt       
 ├── .gitignore
 ├── CHECKLIST.pdf             
-└── LAPORAN.pdf           
+└── LAPORAN.pdf
+
+```
 ---
 
 # 3. 📊 Dataset
