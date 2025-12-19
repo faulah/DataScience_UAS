@@ -107,9 +107,9 @@ UAS_DataScience/
 ---
 
 # 7. 🏁 Kesimpulan
-- Model terbaik: Multilayer Percetron (Deep Learning)
-- Alasan: hal ini menunjukkan bahwa fitur geometrik ini memiliki pola non-linier kompleks yang lebih baik ditangkap oleh algoritma cerdas dari pada model linier sederhana.  
-- Insight penting: Fitur dimensi seperti Area dan Perimeter sangat menentukan jenis kacang, namun fitur bentuk (ShapeFactors) sangat krusial untuk membedakan varietas yang ukurannya mirip tetapi geometrinya berbeda  
+- Model terbaik: [Multilayer Percetron (Deep Learning)]  
+- Alasan: [hal ini menunjukkan bahwa fitur geometrik ini memiliki pola non-linier kompleks yang lebih baik ditangkap oleh algoritma cerdas dari pada model linier sederhana.]  
+- Insight penting: [Fitur dimensi seperti Area dan Perimeter sangat menentukan jenis kacang, namun fitur bentuk (ShapeFactors) sangat krusial untuk membedakan varietas yang ukurannya mirip tetapi geometrinya berbeda]   
 
 ---
 
