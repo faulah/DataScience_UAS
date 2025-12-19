@@ -57,8 +57,7 @@ UAS_DataScience/
 - **Jumlah Data:** 13.611 baris data
 - **Tipe:** Multivariate Classification (Data Tabular)
 
-### Fitur Utama
-
+### Fitur Utama 
 | Fitur | Deskripsi |
 | :--- | :--- |
 | **Area** | Jumlah piksel dalam batas benih (ukuran luas). |
