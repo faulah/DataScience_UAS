@@ -2,8 +2,8 @@
 *(KLASIFIKASI JENIS DRY BEAN MENGGUNAKAN MACHINE LEARNING DAN DEEP LEARNING)*
 
 ## 👤 Informasi
-- **Nama:** [Khoirul Faulah Nur Rohmah]  
-- **Repo:** [https://github.com/faulah/DataScience_UAS]  
+- **Nama:** Khoirul Faulah Nur Rohmah
+- **Repo:** https://github.com/faulah/DataScience_UAS
 - **Video:** [...]  
 
 ---
@@ -22,8 +22,7 @@ Bagaimana cara membangun model yang mampu mengklasifikasi 7 jenis Dry Bean ( Kac
  
 
 **Goals:**  
-- [...]  
-- [...]  
+Mendapatkan model klasifikasi terbaik dengan akurasi 92.95% untuk membedakan jenis kacang
 
 ---
 ## 📁 Struktur Folder
@@ -52,14 +51,14 @@ project/
 ---
 
 # 3. 📊 Dataset
-- **Sumber:** [...]  
-- **Jumlah Data:** [...]  
-- **Tipe:** [...]  
+- **Sumber:** Dataset berasal dari UCI Machine Learning Repository (Dry Bean Dataset) 
+- **Jumlah Data:** 13.611 baris data
+- **Tipe:** Multivariate Classification (Data Tabular)
 
 ### Fitur Utama
 | Fitur | Deskripsi |
-|------|-----------|
-| ... | ... |
+|Area|Jumlah piksel dalam batas benih (ukuran luas)|
+|Perimeter|Panjang keliling benih|
 
 ---
 
