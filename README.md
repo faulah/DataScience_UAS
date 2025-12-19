@@ -56,9 +56,20 @@ project/
 - **Tipe:** Multivariate Classification (Data Tabular)
 
 ### Fitur Utama
+
 | Fitur | Deskripsi |
-| **Area** | Jumlah piksel dalam batas benih (ukuran luas) |
-| **Perimeter** | Panjang keliling benih |
+| :--- | :--- |
+| **Area** | Luas area kacang (jumlah piksel). |
+| **Perimeter** | Keliling atau panjang batas luar kacang. |
+| **MajorAxisLength** | Panjang sumbu utama elips. |
+| **MinorAxisLength** | Panjang sumbu minor elips. |
+| **Aspect Ratio** | Rasio antara sumbu utama dan sumbu minor. |
+| **Eccentricity** | Seberapa jauh bentuk kacang dari lingkaran sempurna. |
+| **ConvexArea** | Luas poligon cembung terkecil yang menutupi kacang. |
+| **Extent** | Rasio piksel area terhadap kotak pembatas. |
+| **Solidity** | Kepadatan bentuk (Area / ConvexArea). |
+| **Roundness** | Tingkat kebulatan kacang. |
+| **ShapeFactor1 - 4** | Empat variabel faktor bentuk geometri kacang. |
 
 ---
 
