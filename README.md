@@ -57,8 +57,8 @@ project/
 
 ### Fitur Utama
 | Fitur | Deskripsi |
-|Area|Jumlah piksel dalam batas benih (ukuran luas)|
-|Perimeter|Panjang keliling benih|
+| Area | Jumlah piksel dalam batas benih (ukuran luas) |
+| Perimeter | Panjang keliling benih |
 
 ---
 
