@@ -1,9 +1,9 @@
 # 📘 Judul Proyek
-*(Isi judul proyek Anda di sini)*
+*(KLASIFIKASI JENIS DRY BEAN MENGGUNAKAN MACHINE LEARNING DAN DEEP LEARNING)*
 
 ## 👤 Informasi
-- **Nama:** [...]  
-- **Repo:** [...]  
+- **Nama:** [Khoirul Faulah Nur Rohmah]  
+- **Repo:** [https://github.com/faulah/DataScience_UAS]  
 - **Video:** [...]  
 
 ---
@@ -18,8 +18,8 @@
 
 # 2. 📄 Problem & Goals
 **Problem Statements:**  
-- [...]  
-- [...]  
+Bagaimana cara membangun model yang mampu mengklasifikasi 7 jenis Dry Bean ( Kacang Kering) secara presisi berdasarkan 16 fitur morfologi?
+ 
 
 **Goals:**  
 - [...]  
